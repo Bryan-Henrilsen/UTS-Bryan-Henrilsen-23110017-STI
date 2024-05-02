@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: black;
+    background: #FFEFEF;
+
+}
+
+.menu_bar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    background : #1B1A55;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: #41C9E2;
+    text-decoration: none;
+    font-weight: 800;
+    transition: .3s;
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu_bar ul li a {
+    font-size: 19px;
+    font-weight: 500;
+    color: #A5D7E8;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.menu_bar ul li a:hover, .menu_bar a.active {
+    color: #576CBC;
+}
+
+.dropdown_menu {
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #1B1A55;
+    z-index: 1;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+    width: 200px;
+    padding: 10px;
+    text-align: left;
+}
+
+.header h1 {
+    position: relative;
+    width: 100%;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.container-image {
+    display: flex;
+    width: 100%;
+    padding: 50px 10% 0;
+    height: auto;
+}
+
+.container-image .image-1 {
+    flex: 1;
+    margin-right: 20px;
+    border: pink solid 2px;
+    border-radius: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    max-height: 650px;
+}
+
+.container-image .image-2 {
+    flex: 1;
+    margin-left: 20px;
+    border: wheat solid 2px;
+    border-radius: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    max-height: 650px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.container-text .text-1 h1 {
+    flex: 1;
+    margin-top: 2px;
+    padding-left: 50%;
+}
+
+.container-text .text-1 p {
+    flex: 1;
+    padding: 20px 0 0 35%;
+    padding-right: 0;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container-text .text-2 h1 {
+    flex: 1;
+    padding-left: 35%;
+}
+
+.container-text .text-2 p {
+    flex: 1;
+    padding: 20px 25% 0 25%;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
