@@ -9,7 +9,7 @@
 
 body {
     color: black;
-    background: url(family-bg.jpg) no-repeat;
+    background: url('family-bg.jpg') no-repeat;
     background-size: cover;
 }
 
