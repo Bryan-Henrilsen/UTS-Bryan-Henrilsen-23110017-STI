@@ -83,7 +83,7 @@ body {
 .header {
     width: 100%;
     padding: 10% 10%;
-    background: url(/image/gallery.jpeg) no-repeat;
+    background: url('gallery.jpeg') no-repeat;
     background-size: cover;
     text-align: center;
 }
